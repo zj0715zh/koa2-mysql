@@ -1,0 +1,22 @@
+{
+  "name": "koa2-server",
+  "version": "1.0.0",
+  "description": "This is project of elm which a online food shop platform.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niubility-SunLight",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1"
+  }
+}
